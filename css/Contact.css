@@ -1,0 +1,53 @@
+.contact__me {
+    padding-top: 4rem !important;
+    text-align: center;
+    font-weight: 600 !important;
+}
+
+.contact__me h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Operator Mono Bold;
+    font-size: 1.6rem;
+    color: tomato;
+}
+
+.contact__me > p {
+    padding-bottom: 30px !important;
+}
+
+.contact__me .mail__to {
+    font-family: Operator Mono Light;
+    color: #000;
+    margin-bottom: 2rem !important;
+}
+
+.contact__me .mail__to:hover {
+    color: tomato;
+}
+
+.font__icons .margin {
+    margin-right: 2rem !important;
+    margin-top: 2rem !important;
+    border: 1px solid tomato;
+    padding: 10px !important;
+    font-size: 2.4rem !important;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+a:nth-child(2) {
+    color: red;
+    text-decoration: none;
+}
+
+a:nth-child(1) {
+    color: #000;
+    text-decoration: none;
+}
+
+.font__icons .margin:hover {
+    color: #fff;
+    background-color: tomato;
+    transform: scale(1.2);
+}

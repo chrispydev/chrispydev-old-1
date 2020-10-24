@@ -1,0 +1,29 @@
+.about {
+  font-family: Operator Mono Light;
+  text-align: center !important;
+  margin: auto !important;
+  width: 70%;
+}
+
+.about > h1 {
+  text-transform: uppercase;
+  font-family: Operator Mono Bold;
+  font-size: 1.6rem;
+  color: tomato;
+}
+
+.about__intro,
+.about__info {
+  margin-bottom: 20px !important;
+}
+
+.about__info span {
+  background-color: tomato !important;
+  font-style: italic;
+  font-weight: 900 !important;
+}
+
+.about__info span i {
+  color: white;
+  padding: 10px 8px !important;
+}
