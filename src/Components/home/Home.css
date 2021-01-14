@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Operator Mono Book;
+  src: url(/fonts/OperatorMono-Book.otf);
+}
+
+.home__main {
+  position: relative;
+  padding: 0 110px;
+  font-family: Operator Mono Book;
+  background-image: url(/images/home.webp);
+  height: 690px;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.home__main::before {
+  position: absolute;
+  content: "";
+  width: 78%;
+  height: 100px;
+  bottom: -87px;
+  left: 0;
+  background: #fff;
+  transform: skewY(10deg);
+  -webkit-transform: skewY(10deg);
+  -moz-transform: skewY(10deg);
+  -ms-transform: skewY(10deg);
+  -o-transform: skewY(10deg);
+}
+
+.home__main::after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 125px;
+  bottom: -68px;
+  right: 0;
+  background: #fff;
+  transform: skewY(-10deg);
+  -webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg);
+  -ms-transform: skewY(-10deg);
+  -o-transform: skewY(-10deg);
+}
+
+.home__main img {
+  width: 100%;
+}
+
+.home__info {
+  padding-top: 20vh !important;
+  padding-left: 10vw !important;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.home__info > * {
+  line-height: 1.6 !important;
+}
+
+.home__info > h2 span {
+  color: tomato;
+}
+
+.home__info > p {
+  font-size: 1rem;
+}
+
+.home__info > p span {
+  color: tomato;
+}
+
+.home__btn {
+  padding: 5px 19px !important;
+  font-weight: 500 !important;
+  color: #f1f1f1 !important;
+  font-size: 1rem !important;
+  border-color: tomato !important;
+  transition: all 0.6s;
+  border-radius: 20px !important;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+}
+
+.home__btn:hover {
+  color: white !important;
+  background-color: tomato !important;
+  border: none !important;
+}

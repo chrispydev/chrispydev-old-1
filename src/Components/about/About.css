@@ -1,0 +1,54 @@
+.about {
+  position: relative;
+  font-family: Operator Mono Light;
+  text-align: center !important;
+  margin: 0 auto !important;
+  width: 70%;
+  padding: 0 110px;
+  text-align: center;
+}
+
+.about > h1 {
+  text-transform: uppercase;
+  font-family: Operator Mono;
+  font-weight: 900;
+  src: url(/fonts/OperatorMono-Bold.otf);
+  font-size: 1.6rem;
+  color: tomato;
+}
+
+.about__intro,
+.about__info {
+  margin-bottom: 20px !important;
+}
+
+.about__info span {
+  background-color: tomato !important;
+  font-style: italic;
+  font-weight: 900 !important;
+  transform: skewY(-10deg);
+  -webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg);
+  -ms-transform: skewY(-10deg);
+  -o-transform: skewY(-10deg);
+}
+
+.about__info a {
+  background-color: tomato !important;
+  color: #fff !important;
+  font-family: Operator Mono Book;
+  src: url(/fonts/OperatorMono-BookItalic.otf);
+  font-style: italic;
+  font-weight: 900 !important;
+}
+
+.about__info span i {
+  color: white;
+  font-style: italic;
+  padding: 10px 8px !important;
+  transform: skewY(-10deg);
+  -webkit-transform: skewY(-10deg);
+  -moz-transform: skewY(-10deg);
+  -ms-transform: skewY(-10deg);
+  -o-transform: skewY(-10deg);
+}
