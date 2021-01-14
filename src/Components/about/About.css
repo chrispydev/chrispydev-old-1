@@ -6,6 +6,9 @@
   width: 70%;
   padding: 0 110px;
   text-align: center;
+  font-family: Operator Mono Book;
+  /* font-weight: 900; */
+  src: url(/fonts/OperatorMono-Book.otf);
 }
 
 .about > h1 {
