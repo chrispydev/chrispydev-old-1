@@ -24,10 +24,10 @@
   left: 0;
   background: #fff;
   transform: skewY(10deg);
-  -webkit-transform: skewY(10deg);
-  -moz-transform: skewY(10deg);
-  -ms-transform: skewY(10deg);
-  -o-transform: skewY(10deg);
+  -webkit-transform: skewY(9deg);
+  -moz-transform: skewY(9deg);
+  -ms-transform: skewY(9deg);
+  -o-transform: skewY(9deg);
 }
 
 .home__main::after {
@@ -38,11 +38,11 @@
   bottom: -68px;
   right: 0;
   background: #fff;
-  transform: skewY(-10deg);
-  -webkit-transform: skewY(-10deg);
-  -moz-transform: skewY(-10deg);
-  -ms-transform: skewY(-10deg);
-  -o-transform: skewY(-10deg);
+  transform: skewY(-9deg);
+  -webkit-transform: skewY(-9deg);
+  -moz-transform: skewY(-9deg);
+  -ms-transform: skewY(-9deg);
+  -o-transform: skewY(-9deg);
 }
 
 .home__main img {
