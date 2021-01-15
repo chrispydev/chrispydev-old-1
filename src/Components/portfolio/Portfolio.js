@@ -15,8 +15,9 @@ function Portfolio() {
       <div>
         <PortfolioLeft portfolio={portfolio.port1} />
         <PortfolioRight portfolio={portfolio.port2} />
-        <PortfolioLeft portfolio={portfolio.port3} />
+        <PortfolioLeft portfolio={portfolio.port5} />
         <PortfolioRight portfolio={portfolio.port4} />
+        <PortfolioRight portfolio={portfolio.port3} />
       </div>
     </section>
   );

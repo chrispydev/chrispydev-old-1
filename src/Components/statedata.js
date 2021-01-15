@@ -37,6 +37,15 @@ export const PortfolioState = {
         visit: "https://chrispydev.github.io/samuel/",
         source: " https://github.com/chrispydev/samuel",
     },
+    port5: {
+        info: "Full stack django blog app",
+        detail:
+            "Django is a perfect tool for web applications it was a great choice to choose django as a technology. And this is fully featured. This has login, log out and register functionality",
+        pic: "port5.png",
+        description: "Django blog app",
+        visit: "https://blogcristoapp.herokuapp.com/",
+        source: "https://github.com/chrispydev/django_blog_app_clone",
+    },
 };
 
 export const MyPortfolioContext = React.createContext(PortfolioState);
