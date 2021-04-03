@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Row, Container, Col, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+const MyImage = lazy(() => import('../ui/Image'));
 
 function PortfolioItems({ portfolio }) {
   const portfolioImage = `/images/${portfolio.pic}`;
@@ -15,7 +16,11 @@ function PortfolioItems({ portfolio }) {
 
         <Row className="portfolio__row">
           <Col sm={10} md={5} lg={5} className="portfolio__img">
-            <img src={portfolioImage} alt="port1" />
+            <Suspense fallback={<img src="/logo512.png" alt="fallback" />}>
+              <MyImage>
+                <img src={portfolioImage} alt="port1" />
+              </MyImage>
+            </Suspense>
           </Col>
           <Col sm={10} md={5} lg={5} className="portfolio__text">
             <p>{portfolio.detail}</p>

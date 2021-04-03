@@ -1,5 +1,5 @@
 .border__container {
-  border: 1px solid #ccc;
+  border: 0.13rem solid #ccc;
 }
 
 .center__content {
@@ -37,7 +37,7 @@
 }
 
 .portfolio__img img {
-  object-fit: fit;
+  object-fit: fill;
   max-height: 200px;
   min-height: 200px;
   width: 100%;
