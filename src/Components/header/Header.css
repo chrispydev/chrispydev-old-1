@@ -25,9 +25,9 @@ header .scrolldown a {
 
 /* primary navigation
 --------------------------------------------------------------------- */
-#nav-wrap ul,
-#nav-wrap li,
-#nav-wrap a {
+  #nav-wrap ul,
+  #nav-wrap li,
+  #nav-wrap a {
   margin: 0;
   padding: 0;
   border: none;
