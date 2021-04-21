@@ -45,6 +45,7 @@
 
 .portfolio__text {
   position: relative;
+  text-align: center;
   padding-bottom: 1rem !important;
 }
 

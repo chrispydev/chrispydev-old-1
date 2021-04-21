@@ -17,7 +17,7 @@
 
 .home__main::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 78%;
   height: 100px;
   bottom: -87px;
@@ -32,7 +32,7 @@
 
 .home__main::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 60%;
   height: 125px;
   bottom: -68px;
@@ -47,6 +47,10 @@
 
 .home__main img {
   width: 100%;
+}
+
+.home__info h2 {
+  font-weight: 600;
 }
 
 .home__info {
@@ -77,6 +81,8 @@
   font-weight: 500 !important;
   color: #f1f1f1 !important;
   font-size: 1rem !important;
+  font-family: 'Operator Mono', 'Inconsolata', Consolas, Monaco, 'Andale Mono',
+    'Ubuntu Mono', monospace !important;
   border-color: tomato !important;
   transition: all 0.6s;
   border-radius: 20px !important;

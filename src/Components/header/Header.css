@@ -1,3 +1,7 @@
+header {
+  max-width: 1440px !important;
+}
+
 header .scrolldown {
   display: none;
 }
@@ -8,8 +12,7 @@ header .scrolldown a {
   left: 95%;
   margin-left: -29px;
   color: tomato !important;
-  font-family: "Operator Mono Bold" !important;
-  src: url(/fonts/OperatorMono-Bold.otf);
+
   /* display: block; */
   height: 42px;
   width: 42px;
@@ -25,9 +28,9 @@ header .scrolldown a {
 
 /* primary navigation
 --------------------------------------------------------------------- */
-  #nav-wrap ul,
-  #nav-wrap li,
-  #nav-wrap a {
+#nav-wrap ul,
+#nav-wrap li,
+#nav-wrap a {
   margin: 0;
   padding: 0;
   border: none;
