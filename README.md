@@ -1,5 +1,4 @@
 ![Screen shot of the page](./Banner.webp)
-This is my personal website [https://chrispydev.netlify.app/]
 
 ## Available Scripts
 
